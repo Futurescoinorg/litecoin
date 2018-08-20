@@ -1,13 +1,13 @@
 *.tar.gz
 
 *.exe
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-tx
-src/test/test_litecoin
-src/test/test_litecoin_fuzzy
-src/qt/test/test_litecoin-qt
+src/xscape
+src/xscaped
+src/xscape-cli
+src/xscape-tx
+src/test/test_xscape
+src/test/test_xscape_fuzzy
+src/qt/test/test_xscape-qt
 
 # autoreconf
 Makefile.in
@@ -30,8 +30,8 @@ config.log
 config.status
 configure
 libtool
-src/config/bitcoin-config.h
-src/config/bitcoin-config.h.in
+src/config/litecoin-config.h
+src/config/litecoin-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -44,11 +44,11 @@ src/qt/forms/ui_*.h
 
 src/qt/test/moc*.cpp
 
-src/qt/bitcoin-qt.config
-src/qt/bitcoin-qt.creator
-src/qt/bitcoin-qt.creator.user
-src/qt/bitcoin-qt.files
-src/qt/bitcoin-qt.includes
+src/qt/litecoin-qt.config
+src/qt/litecoin-qt.creator
+src/qt/litecoin-qt.creator.user
+src/qt/litecoin-qt.files
+src/qt/litecoin-qt.includes
 
 .deps
 .dirstamp
